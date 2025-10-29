@@ -29,7 +29,7 @@
 - **Projects Section:**  
     • Each project includes a title, description (paragraph and/or list), and placeholder image.
     • Added a search bar (input id="searchInput") for real-time filtering of projects by title or description.
-    • Project titles (<h3>) are clickable to toggle visibility of their details, improving interactivity.
+    • Project titles are clickable to toggle visibility of their details, improving interactivity.
     • Added a "No projects found" message that appears when the search query matches no projects.
 - **Contact Section:** orm with fields for Name, Email, and Message.
 • Validates that all fields are filled.
