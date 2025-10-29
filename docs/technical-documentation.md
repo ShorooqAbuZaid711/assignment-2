@@ -60,7 +60,7 @@
     • Filters project cards in real time based on title or description text.  
     • Hides non-matching projects and shows a "No projects found" message if none match.
 - **Project Toggle Function:**  
-    • Each project title (<h3>) is clickable.
+    • Each project title is clickable.
     • Clicking toggles visibility of its description or list items.
     • Implemented using DOM traversal and class toggling for visibility control.
 - **Contact Form Validation:**
@@ -94,10 +94,10 @@
 ---
 
 ## 7. Known Limitations
-    - Contact form does not submit to a backend; it only validates and displays messages.
-    - Placeholder images used instead of real project screenshots.
-    - Greeting animation and toggle transitions are basic; could be enhanced with smoother effects.
-    - Search and toggle features work separately; integration could be improved in future iterations.
-    - No persistent storage or API integration for project data; all content is static.
+    • Contact form does not submit to a backend; it only validates and displays messages.
+    • Placeholder images used instead of real project screenshots.
+    • Greeting animation and toggle transitions are basic; could be enhanced with smoother effects.
+    • Search and toggle features work separately; integration could be improved in future iterations.
+    • No persistent storage or API integration for project data; all content is static.
 
 ---
