@@ -37,67 +37,71 @@
                 while growing as a developer."</p>
         </section>
 
-        <!-- Projects section -->
-        <section id="projects">
+    <!-- Projects section -->
+    <section id="projects">
             <h2>Projects</h2>
-
+            <!-- Search bar -->
+                <input type="text" id="searchInput" placeholder="Search projects...">
+                <p id="noResultsMessage" style="display:none; color: red; font-weight: bold;" aria-live="polite">
+                    No projects found.
+                </p>
             <!-- Project 1 -->
             <div id="project-1">
                 <h3 id="name1">Employee Bonus Prediction Model</h3>
-                <p id="description1">Built a regression model to 
-                    recommend optimal employee bonuses based on 
-                    personal and performance data. The model helps 
-                    companies make fair, data-driven compensation decisions.<br><br></p>
+                <div class="project-details">    
+                    <p id="description1">Built a regression model to 
+                        recommend optimal employee bonuses based on 
+                        personal and performance data. The model helps 
+                        companies make fair, data-driven compensation decisions.<br><br></p>
+                </div>
                 <img src="assets/images" alt="Project 1 image">
             </div>
 
             <!-- Project 2 -->
             <div id="project-2">
                 <h3 id="name2">Opportune – Student Volunteer & Internship Finder</h3>
-                <p id="description2">Developed an application that connects 
-                    students with volunteering opportunities and internships. 
-                    The platform makes it easier for students to gain real-world 
-                    experience while helping organizations find motivated contributors.<br> <br></p>
+                <div class="project-details">
+                    <p id="description2">Developed an application that connects 
+                        students with volunteering opportunities and internships. 
+                        The platform makes it easier for students to gain real-world 
+                        experience while helping organizations find motivated contributors.<br> <br></p>
+                </div>
                 <img src="assets/images/" alt="project 2 image">
             </div>
 
             <!-- Project 3 -->
             <div id="project-3">
-                <h3 id="name3">Financial Management 
-                    Toolkit for Small Businesses</h3>
-                <p id="description3">Designed and developed a 
-                    lightweight financial management web app 
-                    for small businesses. The app combines three tools in one:<br>
+            <h3 id="name3">Financial Management Toolkit for Small Businesses</h3>
+            <div class="project-details">
+                <p id="description3">
+                Designed and developed a lightweight financial management web app 
+                for small businesses. The app combines three tools in one:<br>
                 </p>
-                <!-- List of tools included in the project -->
-                <div>
-                    <ul id="tools-list">
-                        <li><strong>Break-Even Simulator</strong> for exploring costs, 
-                            prices, and sales targets.</li>
-                        <li><strong>Cash Flow Danger Zone Visualizer</strong> to 
-                            forecast and prevent shortages.</li>
-                        <li><strong>Pricing Experiment Simulator</strong> for testing 
-                            “what-if” revenue and profit scenarios.</li>
-                    </ul>
-                </div>
-                <img src="assets/images/" alt="project 3 image">
+                <ul id="tools-list">
+                    <li><strong>Break-Even Simulator</strong> for exploring costs, prices, and sales targets.</li>
+                    <li><strong>Cash Flow Danger Zone Visualizer</strong> to forecast and prevent shortages.</li>
+                    <li><strong>Pricing Experiment Simulator</strong> for testing “what-if” revenue and profit scenarios.</li>
+                </ul>
             </div>
-        </section>
+
+            <img src="assets/images/" alt="project 3 image">
+    </section>
 
         <!-- Contact form section -->
         <section id="contact-form">
             <h2>Contact</h2>
-            <form>
+            <form id="contactForm">
                 <label for="senderName">Name<br></label>
-                <input type="text" name="Sender-Name" id="senderName">
+                <input type="text" name="Sender-Name" id="senderName" required>
 
                 <label for="senderEmail"><br>Email<br></label>
-                <input type="email" name="Sender Email" id="senderEmail">
+                <input type="email" name="Sender Email" id="senderEmail" required>
 
                 <label for="senderMessage"><br>Message<br></label>
-                <textarea id="senderMessage" rows="5" name="senderMessage"></textarea><br>
+                <textarea id="senderMessage" rows="5" name="senderMessage" required></textarea><br>
 
                 <button type="submit">Send</button>
+                <p id="formFeedback" style="display:none;" aria-live="polite"></p>
             </form>
         </section>
 

@@ -1,10 +1,10 @@
 # 🌟 Personal Portfolio Website
 
 ## 📌 Project Description
-This is a simple, responsive personal portfolio web application built as **Assignment 1**.  
-It includes an "About Me" introduction, a "Projects" section with placeholders, and a "Contact" form.  
-It is designed as the starting point of my professional portfolio.
-
+    This is a simple, responsive personal portfolio web application built as **Assignment 1 and enhanced in Assignment 2**.  
+    It includes an "About Me" introduction, a "Projects" section with placeholders, and a "Contact" form.  
+    It is designed as the starting point of my professional portfolio and now includes interactive features for better user experience.
+    
 ---
 
 ## 🚀 Setup Instructions
@@ -30,31 +30,31 @@ To run this project locally:
 
     🔹 HTML
     - About Me section (short introduction, tagline, optional profile image).
-    - Projects section (2 project placeholders with title, description, and image).
-    - Contact form (Name, Email, Message fields).
+    - Projects section with placeholder images.
     🔹 CSS
     - Clean and modern styling.
     - Hover effects for buttons, links, and cards.
     - Responsive design with Flexbox and @media queries.
-    🔹 JavaScript
+    🔹 JavaScript / Interactive Features
     - Greeting message that changes depending on the time of day.
-    - Basic animation for the greeting text.
+    - Live search/filtering of projects by title or description.
+    - Click-to-toggle project descriptions for better navigation.
+    - Contact form validation including email format check.
+    - Smooth animation for greeting text and toggle transitions.
     📱 Responsive Design Notes
     - Works on desktop, tablet, and mobile devices.
     - Navigation bar becomes vertical on smaller screens.
     - Buttons and inputs adjust to fit smaller widths.
-    - Tested using browser resize tools and DevTools.
-    
+    - Tested using browser resize tools and DevTools.    
 ---
 
 ## 🤖 AI Usage Summary
 
     I used AI tools to support the development process responsibly:
-    - ChatGPT → Helped debug my CSS layout (      flexbox vs. media queries), guided me in creating a time-based JavaScript greeting, and suggested improvements to documentation.
-    - Benefit → Faster problem-solving and learning best practices.
-    - Challenge → Needed to carefully review AI suggestions and adjust them to fit assignment requirements.
-    - Learning Outcome → Improved understanding of responsive design and JavaScript DOM manipulation.
-
+        - ChatGPT → Helped debug CSS layout (flexbox vs. media queries), create a time-based greeting, implement dynamic project search and toggle functionality, and validate contact form inputs.
+        - Benefit → Faster problem-solving, clearer understanding of JavaScript DOM manipulation, and guidance on interactive feature implementation.
+        - Challenge → Needed to carefully review AI suggestions and adapt them to project-specific requirements.
+        - Learning Outcome → Improved understanding of responsive design, JavaScript interactivity, and form validation logic.
     👉 A detailed report is documented in:
     - docs/ai-usage-report.md
 
